@@ -1,6 +1,14 @@
 body{
-	background-color: #323232;
+	background-image: url(/Assets/banner2.jpg);
+	background-size:4000px 2000px;
+	background-position: center;
 }
+
+.bg-img{
+	width: 1000px;
+	height: 1000px;
+}
+
 
 .upcoming{
 	margin-bottom:35px;
@@ -40,6 +48,8 @@ a:visit{
 	text-decoration: none;
 }
 
+
+
 .container {
   position: relative;
   width: 100%;
@@ -56,24 +66,24 @@ a:visit{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -64%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 16px;
-  padding: 12px 24px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  border: 0px solid white;
   opacity: 0;
-  transition: opacity 1s, border 1s;
+  transition: opacity 1s;
 }
-.btn:active{
-	  outline:none;
+
+.btn{
+	padding: 190px 63px 0px 63px;
+	font-family: Tw Cen MT;
 }
+
 
 .container .btn:hover {
   opacity: 1;
-  border: 3px solid white;
 }
