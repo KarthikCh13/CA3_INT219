@@ -1,0 +1,19 @@
+{
+  "name": "ca3",
+  "version": "1.0.0",
+  "description": "ca3 INT219 project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarthikCh13/CA3_INT219.git"
+  },
+  "author": "karthik Ch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarthikCh13/CA3_INT219/issues"
+  },
+  "homepage": "https://github.com/KarthikCh13/CA3_INT219#readme"
+}
