@@ -4,7 +4,9 @@
   "description": "ca3 INT219 project",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/KarthikCh13/CA3_INT219/issues"
   },
-  "homepage": "https://github.com/KarthikCh13/CA3_INT219#readme"
+  "homepage": "https://github.com/KarthikCh13/CA3_INT219#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.5.3",
+    "bootstrap": "^4.5.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
 }
