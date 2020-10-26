@@ -1,0 +1,76 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("/Assets/banner.jpg");
+
+  /* Add the blur effect */
+  filter: blur(3px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,1); /* Black w/opacity/see-through */
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: 190px;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  transition:background-color 1s, padding 1s;
+}
+.bg-text:hover{
+  background-color: rgba(224,231,34, 1);
+  cursor:pointer; 
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+}
+
+.title{
+    font-size: 100px;
+    font-family: Tw Cen MT;
+    color: white;
+    text-shadow: none;
+    transition: text-shadow 1s, color 1s;
+}
+
+.title:hover{
+  color: black; 
+  text-shadow: 3px 3px #00FFFF;
+  cursor:pointer;
+}
+
+.welcome{
+  font:bold 90px Tw Cen MT;
+  color: white;
+  position: absolute;
+  top:10%;
+  left:35%;
+  transform: translate(200px 100px);
+}
