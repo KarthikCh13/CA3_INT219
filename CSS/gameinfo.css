@@ -1,0 +1,25 @@
+body{
+  background-color: #FAF61B; 
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 1);
+  color: #FAF61B;
+  font-size: 30px;
+  margin-top: 5px;
+  padding: 0px 50px 0px 50px;
+  transition :background-color 0.5s, color 0.5s;
+}
+.btn:hover{
+  background-color: gray;
+  color: white;
+}
+
+.border-dark{
+  border-bottom: 2px solid gray;
+}
+
+.modal{
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(8px);
+}
