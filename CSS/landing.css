@@ -41,7 +41,7 @@ body, html {
   transition:background-color 1s, padding 1s;
 }
 .bg-text:hover{
-  background-color: rgba(224,231,34, 1);
+  background-color: rgba(255,196,12, 1);
   cursor:pointer; 
 }
 
