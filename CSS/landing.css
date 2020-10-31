@@ -7,7 +7,7 @@ body, html {
 }
 
 .bg-image {
-  background-image: url("Assets/banner.jpg");
+  background-image: url("/Assets/banner.jpg");
   filter: blur(3px);
   height: 100%;
   background-position: center;
