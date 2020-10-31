@@ -8,6 +8,7 @@ body, html {
 
 .bg-image {
   /* The image used */
+ /* background-image: url("D:/MyFiles/Programming/Bootstrap 4 coursera/CA3 - Project/Assets/banner.jpg");*/
   background-image: url("/Assets/banner.jpg");
 
   /* Add the blur effect */

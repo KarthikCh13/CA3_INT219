@@ -6,6 +6,23 @@
     position: absolute;
     object-fit:cover;
     top: 0;
-    left: 0;
+    left:0;
     min-height: 500px;
+}
+.spt-txt h1{
+	font-size: 100px;
+	position: absolute;
+	top: -240px;
+	left: -50px;
+}
+
+.spt-txt h3{
+	position: absolute;
+	top: -325px;
+	left: 400px;
+}
+.spt-txt p{
+	position: absolute;
+	top: -250px;
+	left: 0px;
 }

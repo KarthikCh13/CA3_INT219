@@ -56,7 +56,7 @@ body{
 	color:black;
 }
 	
-.active{
+.active a{
 	text-shadow: 1.5px 1.5px #00FFFF;
 }
 
