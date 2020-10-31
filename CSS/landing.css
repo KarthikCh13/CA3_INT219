@@ -7,26 +7,19 @@ body, html {
 }
 
 .bg-image {
-  /* The image used */
- /* background-image: url("D:/MyFiles/Programming/Bootstrap 4 coursera/CA3 - Project/Assets/banner.jpg");*/
-  background-image: url("/Assets/banner.jpg");
 
-  /* Add the blur effect */
+  background-image: url("D:/MyFiles/Programming/Bootstrap 4 coursera/CA3 - Project/Assets/banner.jpg");
+  /*background-image: url("/Assets/banner.jpg");*/
   filter: blur(3px);
-
-  /* Full height */
   height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,1); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,1);
   border-radius: 20px;
   color: white;
   font-weight: bold;
